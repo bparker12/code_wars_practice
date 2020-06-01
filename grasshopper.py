@@ -13,3 +13,7 @@ def summation(num):
     print (sum + num)
 
 summation(8)
+
+#best solution
+def summation(num):
+    return sum(range(1,num+1))
