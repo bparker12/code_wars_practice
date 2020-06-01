@@ -13,3 +13,4 @@ def double(int):
     print(new)
 
 double([1, 2, 3])
+double([2, 4, 6])

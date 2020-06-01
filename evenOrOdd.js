@@ -7,3 +7,5 @@ function even_or_odd(number) {
   }
 
 even_or_odd(2)
+even_or_odd(4)
+even_or_odd(5)
