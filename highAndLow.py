@@ -25,13 +25,15 @@ def high_and_low(numbers):
     print(numbers)
     return numbers
 
-high_and_low("-1 -1 -1")
+high_and_low("-1 -1 -1") 
 
 # cleaner way
 
 def high_and_low2(numbers):
     numbers = [int(x) for x in numbers.split(" ")]
-    return str(max(numbers)) + " " + str(min(numbers))
+    print(str(max(numbers)) + " " + str(min(numbers)))
+
+high_and_low2("15 23 100 75 1023 -15 -1000") 
 
 def high_and_low3(numbers):
   n = map(int, numbers.split(' '))
